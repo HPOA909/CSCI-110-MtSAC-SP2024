@@ -12,10 +12,10 @@ int main(){
     cout << "Enter the player's number of times at bat" << endl;
     cin >> atBat;
 
-    battingAverage = hits/atBat;
+    battingAverage = static_cast<double>(hits)/atBat;
 
     cout << "The player's batting average is " << battingAverage << endl;
-    
+
 
     return 0;
 }
