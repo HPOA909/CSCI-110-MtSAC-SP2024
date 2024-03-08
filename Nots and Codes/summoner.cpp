@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Execute at a later time
 void summoner(float num1, float num2);
 
+// Begin code here
 int main(){
     float num1;
     float num2;
@@ -15,6 +17,7 @@ int main(){
     return 0;
 }
 
+// This module intentionally put in the end because of the shiz above
 void summoner(float num1, float num2){
     float result;
     result = num1 + num2;
