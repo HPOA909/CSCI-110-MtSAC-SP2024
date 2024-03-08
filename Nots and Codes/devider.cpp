@@ -8,7 +8,7 @@ int main(){
     float num2;
     cout << "Enter your numerator: " << endl;
     cin >> num1;
-    cout << "Ether your denominator: " << endl;
+    cout << "Enter your denominator: " << endl;
     cin >> num2;
 
     devider(num1,num2);
