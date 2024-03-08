@@ -1,12 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void multiply(double number){
-    double result;
-    result = number * 2;
-    cout << "The number multiply by 2 is " << result << endl;
-
-}
+void multiply(double);
 
 int main(){
     double num;
@@ -16,4 +11,11 @@ int main(){
     multiply(num);
 
     return 0;
+}
+
+void multiply(double number){
+    double result;
+    result = number * 2;
+    cout << "The number multiply by 2 is " << result << endl;
+
 }
