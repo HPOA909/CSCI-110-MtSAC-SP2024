@@ -3,10 +3,10 @@ using namespace std;
 
 const double DISCOUNT_PER = 0.2;
 
-int discount(int);
+double discount(double);
 
 int main(){
-    float regularPrice, salesPrice;
+    double regularPrice, salesPrice;
     cout << "Enter the item's regular price: " << endl;
     cin >> regularPrice;
 
@@ -21,6 +21,6 @@ int main(){
     return 0;
 }
 
-int discount(int price){
+double discount(double price){
     
 }
