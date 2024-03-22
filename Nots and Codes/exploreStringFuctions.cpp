@@ -46,5 +46,18 @@ int main(){
     }
     cout << "upper case: " << str << endl;
 
+    bool valid = false;
+    string string1;
+    cout << "Enter a word: " << endl;
+    cin >> string1;
+    for (int i = 0; i < string1.size(); i++){
+        if (isdigit(string1.at(i)))
+            valid = true;
+    }
+    if (valid)
+        cout << "Your string did have a digit!" << endl;
+    else
+        cout << "Your string did not have a digit!" << endl;
+
     return 0;
 }
