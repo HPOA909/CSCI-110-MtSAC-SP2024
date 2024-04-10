@@ -15,7 +15,7 @@ int main(){
 
     average = (test1 + test2 + test3)/3;
 
-    cout << "The average score is:" << average << endl;
+    cout << "The average score is: " << average << endl;
 
     if (average > 95){
         cout << "Congrats! You did great!" << endl;
