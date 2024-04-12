@@ -4,7 +4,7 @@ using namespace std;
 int binarySearch(int array[], int value, int arraySize);
 
 int main(){
-    int position = -1;
+    int coord = -1;
     int searchValue;
     const int SIZE = 10;
     int array[SIZE];
@@ -12,19 +12,19 @@ int main(){
     cout << "The array is " << endl;
     for (int i=0; i<SIZE;i++){
         array[i] = 2*i;
-        count = array[i] << " ";
+        cout << array[i] << " ";
     }
-    count << endl;
+    cout << endl;
 
     cout << "Enter a search value:" << endl;
     cin >> searchValue;
 
-    position = binarySearch(array, searchValue, SIZE);
+    coord = binarySearch(array, searchValue, SIZE);
 
-    if (position == -1){
+    if (coord == -1){
         cout << "The search value is not found!" << endl;
     }else{
-        count << "The search value was found in position " << position << end;
+        cout << "The search value was found in position " << coord << endl;
     }
 
     return 0;
@@ -41,7 +41,7 @@ int binarySearch(int array[], int value, int arraySize){
         medium = (alpha + omega) / 2;
         if (array[medium] == value){
             found = true;
-            position = medium;
+            coord = medium;
         }else if (array[medium] > value){
             omega = medium -1;
         }else{
