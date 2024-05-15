@@ -19,7 +19,7 @@ int main(){
     for (int i=0;i<SIZE;i++){
         values[i] = rand()%30;
     }
-    for (int i=0; i<Size;i++){
+    for (int i=0; i<SIZE;i++){
         cout << "Index " << i << ": " << values[i] << endl;
     }
     sum =getTotal(values, SIZE);
