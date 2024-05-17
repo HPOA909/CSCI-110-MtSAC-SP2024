@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/howard/Documents/Projects/CSCI-110-MtSAC-SP2024/Nots and Codes/",
+            "program": "/home/howard/Documents/Projects/CSCI-110-MtSAC-SP2024/Programs/",
             "args": [],
             "stopAtEntry": false,
             "cwd": "/home/howard/Documents/Projects/CSCI-110-MtSAC-SP2024/",
